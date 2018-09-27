@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grids</title>
+    
+    <style>
+    .wrapper{
+        display:grid;
+        grid-template-columns: 70% 30%;
+        grid-column-gap: 1cm;
+        grid-row-gap: 1cm;
+
+        grid-gap:1cm;
+    }
+
+    .wrapper > div{
+        background:#eee;
+        padding:1em;
+    }
+    .wrapper > div:nth-child(odd){background:#ddd;}
+    </style>
+
+</head>
+
+<body>
+<div class="wrapper">
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ea at quis soluta praesentium, sequi explicabo nostrum dolor deserunt incidunt maiores provident? Nulla, dolor repudiandae adipisci quas quo, atque quae porro nobis maiores modi eligendi accusamus aspernatur odio nam animi veniam. Consequuntur optio quae recusandae dolores iusto facere, nobis sunt! Delectus doloribus aperiam vel dolore? Repudiandae deserunt, nemo explicabo magni repellendus saepe accusamus amet numquam tempore corrupti ab magnam sit culpa rem sapiente tempora sequi voluptatum quasi! Vitae, ipsum cum.
+    </div>
+    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio est dolore dignissimos accusamus laborum at possimus aliquid consequuntur, minus voluptatem eius debitis facilis ex porro! Consectetur rem eos minus alias?</div>
+    <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ea at quis soluta praesentium, sequi explicabo nostrum dolor deserunt incidunt maiores provident? Nulla, dolor repudiandae adipisci quas quo, atque quae porro nobis maiores modi eligendi accusamus aspernatur odio nam animi veniam. Consequuntur optio quae recusandae dolores iusto facere, nobis sunt! Delectus doloribus aperiam vel dolore? Repudiandae deserunt, nemo explicabo magni repellendus saepe accusamus amet numquam tempore corrupti ab magnam sit culpa rem sapiente tempora sequi voluptatum quasi! Vitae, ipsum cum.
+        </div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio est dolore dignissimos accusamus laborum at possimus aliquid consequuntur, minus voluptatem eius debitis facilis ex porro! Consectetur rem eos minus alias?</div>
+    
+</div>
+
+</body>
+
+</html>

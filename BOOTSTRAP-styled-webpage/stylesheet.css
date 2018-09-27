@@ -1,0 +1,27 @@
+.jumbotron{
+    background-image:url("./images/dark-luxury-mandala-background_1055-3152.jpg");
+    color:white;
+}
+
+.col-sm-12{
+    border:brown; 
+    border:double;
+    background-color: moccasin;
+
+}
+.col-sm-4{
+flex-shrink:50%;   
+}
+
+body{
+    background-image:url("./images/Wood-Brown-jpg.jpg");
+}
+
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
